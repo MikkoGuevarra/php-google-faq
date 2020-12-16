@@ -89,18 +89,52 @@
              </div>
 
          </header>
-         <div class="container">
-             <?php
-             foreach ($faqs as $faq) { ?>
-                 <h2>
-                     <?php echo $faq['question']; ?>
-                 </h2>
-                 <p>
-                     <?php echo $faq['answer']; ?>
-                 </p>
+         <section>
+             <div class="container">
                  <?php
-             }
-             ?>
-         </div>
+                 foreach ($faqs as $faq) { ?>
+                     <h2>
+                         <?php echo $faq['question']; ?>
+                     </h2>
+                     <p>
+                         <?php echo $faq['answer']; ?>
+                     </p>
+                     <?php
+                 }
+                 ?>
+             </div>
+         </section>
+         <footer>
+             <div class="container">
+                 <div class="left-foot">
+                     <ul>
+                         <li>
+                             <a href="#">Google</a>
+                         </li>
+                         <li>
+                             <a href="#">Tutto su Google</a>
+                         </li>
+                         <li>
+                             <a href="#">Privacy</a>
+                         </li>
+                         <li>
+                             <a href="#">Termini</a>
+                         </li>
+                     </ul>
+                 </div>
+                 <div class="right-foot">
+                     <i class="fas fa-comment-alt"></i>
+                     <select>
+                         <option value="de">Deutsch</option>
+                         <option value="it" selected>Italiano</option>
+                         <option value="en">English</option>
+                         <option value="fr">Français</option>
+                         <option value="jp">日本語</option>
+                         <option value="tw">繁體中文</option>
+                     </select>
+
+                 </div>
+             </div>
+         </footer>
      </body>
  </html>
