@@ -49,6 +49,7 @@
  <!DOCTYPE html>
  <html lang="en" dir="ltr">
      <head>
+         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="public/app.css">
@@ -57,6 +58,35 @@
      </head>
      <body>
          <header>
+             <div class="top-head">
+                 <div class="logo">
+                     <img src="https://1000logos.net/wp-content/uploads/2016/11/google-logo.png" alt="">
+                     <span>Privacy e Termini</span>
+                 </div>
+                 <div class="right-top">
+                     <a href="#"> <i class="fas fa-braille"></i></a>
+                     <span>M</span>
+                 </div>
+             </div>
+             <div class="lower-head">
+                 <ul>
+                     <li>
+                         <a href="#">Introduzione</a>
+                     </li>
+                     <li>
+                         <a href="#">Norme sulle privacy</a>
+                     </li>
+                     <li>
+                         <a href="#">Termini di servizio</a>
+                     </li>
+                     <li>
+                         <a href="#">Tecnologie</a>
+                     </li>
+                     <li class="active">
+                         <a href="#">Domande Frequenti</a>
+                     </li>
+                 </ul>
+             </div>
 
          </header>
          <div class="container">

@@ -27,10 +27,70 @@ p {
 
 a {
   color: #3367d6;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
 }
 
 header {
   height: 100px;
   background-color: white;
+  padding: 10px 20px;
+  border-bottom: 1px solid rgba(151, 151, 151, 0.5);
+  margin-bottom: 50px;
+}
+
+.top-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-head .logo {
+  display: flex;
+  align-items: center;
+}
+
+.top-head .logo img {
+  max-width: 100px;
+}
+
+.top-head .logo span {
+  font-size: 22px;
+  color: #5f6368;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.right-top a {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.right-top span {
+  font-size: 20px;
+  padding: 5px 10px;
+  background-color: grey;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.lower-head li {
+  display: inline-block;
+  padding: 0 15px 8px 15px;
+}
+
+.lower-head li a {
+  color: #5f6368;
+}
+
+.lower-head .active {
+  border-bottom: 2px solid #3367d6;
+}
+
+.lower-head .active a {
+  color: #3367d6;
 }
 
